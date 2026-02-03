@@ -70,11 +70,11 @@ A for loop is a control flow statement in coding that allows a specfic block of 
 Jeffrey - What is a Bug? What does it mean to Debug your code? Give an example of a type of bug/error that can occur in code. A bug is a probelm in a code that can be big or small, its called a bug because a mans device was not woring and it turned out to have a literal bug in it. A common bug could be putting the same thing twice but not the same same. For example if you put class:english  you have to put it EXACTLY like that, you can't put class:English.
 
 Isaiah - What is a Class? What is an Object?
-
+A class is basically a mold made of code, and the object is the product of that mold.
 Tay - What is a Library?
-
+It's a collection that has keys : value pairs. 
 Braylen - What is a List? What are the rules surrounding a list?
-
+A list is used to store multiple items in one variable. They are ordered, changeable, and allow duplicates, they look like [1, 2, 3]
 Jarmuari - What are the Arithmetic Operators? What do each do? Write a sample line of code that uses one of these operators
 
 "+" operator means  if 2+3=5 it allow you to add with in coding
@@ -89,7 +89,9 @@ My definiton: giving the Operator there symbols with in the code and eqautions.
 
 Ja'Den - What is Version Control? What version control system have we been using? Why is version control useful? Version control is a system that records changes to files over time so that specific versions can be recalled later. A Version Control system we uses it github. Version Control is useful because it keeps a history of changes.
 
-Joseph - What is Syntax? Given an example of proper Python syntax for creating a variable. Now do it using wrong Python syntax.
+Joseph - What is Syntax? Given an example of proper Python syntax for creating a variable. Now do it using wrong Python syntax. pythonic variable names start with letters or _, can only contain english letters, numbers, and _, it can't be a keyword
+
+103130 is not a usable variable name.
 
 Darren - What is a Programming Language? Why do multiple programming languages exist? Give 5 examples of programming Languages.
 
