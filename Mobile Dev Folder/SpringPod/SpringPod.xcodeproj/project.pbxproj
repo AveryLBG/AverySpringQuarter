@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBF9F5462F58F894004F607A /* AboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F52E2F58F894004F607A /* AboutMe.swift */; };
+		BBF9F5472F58F894004F607A /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F52A2F58F894004F607A /* Stacks.swift */; };
+		BBF9F5482F58F894004F607A /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F53E2F58F894004F607A /* CustomFont.swift */; };
+		BBF9F5492F58F894004F607A /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F53D2F58F894004F607A /* ButtonView.swift */; };
+		BBF9F54A2F58F894004F607A /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F5252F58F894004F607A /* SwiftUIView.swift */; };
+		BBF9F54B2F58F894004F607A /* BasicNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F5352F58F894004F607A /* BasicNavigationView.swift */; };
+		BBF9F54C2F58F894004F607A /* TextViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F52B2F58F894004F607A /* TextViewModifiers.swift */; };
+		BBF9F54D2F58F894004F607A /* AboutMisterCam.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F52F2F58F894004F607A /* AboutMisterCam.swift */; };
+		BBF9F54E2F58F894004F607A /* ImageViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F5272F58F894004F607A /* ImageViewModifiers.swift */; };
+		BBF9F54F2F58F894004F607A /* GuessTheState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F53A2F58F894004F607A /* GuessTheState.swift */; };
+		BBF9F5502F58F894004F607A /* ZStackColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F52C2F58F894004F607A /* ZStackColor.swift */; };
+		BBF9F5512F58F894004F607A /* Padding&SpacingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F5282F58F894004F607A /* Padding&SpacingView.swift */; };
+		BBF9F5522F58F894004F607A /* SwiftUI_PodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F5442F58F894004F607A /* SwiftUI_PodApp.swift */; };
+		BBF9F5532F58F894004F607A /* Session3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F5292F58F894004F607A /* Session3.swift */; };
+		BBF9F5542F58F894004F607A /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F53B2F58F894004F607A /* StateView.swift */; };
+		BBF9F5552F58F894004F607A /* AccessibilityModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F5382F58F894004F607A /* AccessibilityModifiers.swift */; };
+		BBF9F5562F58F894004F607A /* Session2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F5242F58F894004F607A /* Session2.swift */; };
+		BBF9F5572F58F894004F607A /* NavigationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F5362F58F894004F607A /* NavigationScreen.swift */; };
+		BBF9F5582F58F894004F607A /* SimpleScrollingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F5332F58F894004F607A /* SimpleScrollingExample.swift */; };
+		BBF9F5592F58F894004F607A /* MisterCamSportsFavs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F5312F58F894004F607A /* MisterCamSportsFavs.swift */; };
+		BBF9F55A2F58F894004F607A /* Session5TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F5322F58F894004F607A /* Session5TabView.swift */; };
+		BBF9F55B2F58F894004F607A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F5422F58F894004F607A /* ContentView.swift */; };
+		BBF9F55C2F58F894004F607A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBF9F5222F58F894004F607A /* Preview Assets.xcassets */; };
+		BBF9F55D2F58F894004F607A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBF9F5412F58F894004F607A /* Assets.xcassets */; };
+		BBF9F55E2F58F894004F607A /* SwiftUI_Pod.entitlements.xml in Resources */ = {isa = PBXBuildFile; fileRef = BBF9F5432F58F894004F607A /* SwiftUI_Pod.entitlements.xml */; };
+		BBF9F55F2F58F894004F607A /* JockeyOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBF9F53F2F58F894004F607A /* JockeyOne-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BBF9F5142F58F85D004F607A /* SpringPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF9F5222F58F894004F607A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBF9F5242F58F894004F607A /* Session2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session2.swift; sourceTree = "<group>"; };
+		BBF9F5252F58F894004F607A /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		BBF9F5272F58F894004F607A /* ImageViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModifiers.swift; sourceTree = "<group>"; };
+		BBF9F5282F58F894004F607A /* Padding&SpacingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Padding&SpacingView.swift"; sourceTree = "<group>"; };
+		BBF9F5292F58F894004F607A /* Session3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session3.swift; sourceTree = "<group>"; };
+		BBF9F52A2F58F894004F607A /* Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
+		BBF9F52B2F58F894004F607A /* TextViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewModifiers.swift; sourceTree = "<group>"; };
+		BBF9F52C2F58F894004F607A /* ZStackColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackColor.swift; sourceTree = "<group>"; };
+		BBF9F52E2F58F894004F607A /* AboutMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMe.swift; sourceTree = "<group>"; };
+		BBF9F52F2F58F894004F607A /* AboutMisterCam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMisterCam.swift; sourceTree = "<group>"; };
+		BBF9F5312F58F894004F607A /* MisterCamSportsFavs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisterCamSportsFavs.swift; sourceTree = "<group>"; };
+		BBF9F5322F58F894004F607A /* Session5TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session5TabView.swift; sourceTree = "<group>"; };
+		BBF9F5332F58F894004F607A /* SimpleScrollingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleScrollingExample.swift; sourceTree = "<group>"; };
+		BBF9F5352F58F894004F607A /* BasicNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicNavigationView.swift; sourceTree = "<group>"; };
+		BBF9F5362F58F894004F607A /* NavigationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationScreen.swift; sourceTree = "<group>"; };
+		BBF9F5382F58F894004F607A /* AccessibilityModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityModifiers.swift; sourceTree = "<group>"; };
+		BBF9F53A2F58F894004F607A /* GuessTheState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheState.swift; sourceTree = "<group>"; };
+		BBF9F53B2F58F894004F607A /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
+		BBF9F53D2F58F894004F607A /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		BBF9F53E2F58F894004F607A /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		BBF9F53F2F58F894004F607A /* JockeyOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JockeyOne-Regular.ttf"; sourceTree = "<group>"; };
+		BBF9F5412F58F894004F607A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBF9F5422F58F894004F607A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BBF9F5432F58F894004F607A /* SwiftUI_Pod.entitlements.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SwiftUI_Pod.entitlements.xml; sourceTree = "<group>"; };
+		BBF9F5442F58F894004F607A /* SwiftUI_PodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PodApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBF9F5112F58F85D004F607A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBF9F50B2F58F85D004F607A = {
+			isa = PBXGroup;
+			children = (
+				BBF9F5152F58F85D004F607A /* Products */,
+				BBF9F5452F58F894004F607A /* SwiftUI Pod */,
+			);
+			sourceTree = "<group>";
+		};
+		BBF9F5152F58F85D004F607A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBF9F5142F58F85D004F607A /* SpringPod.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBF9F5232F58F894004F607A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BBF9F5222F58F894004F607A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBF9F5262F58F894004F607A /* Session 2 */ = {
+			isa = PBXGroup;
+			children = (
+				BBF9F5242F58F894004F607A /* Session2.swift */,
+				BBF9F5252F58F894004F607A /* SwiftUIView.swift */,
+			);
+			path = "Session 2";
+			sourceTree = "<group>";
+		};
+		BBF9F52D2F58F894004F607A /* Session 3 */ = {
+			isa = PBXGroup;
+			children = (
+				BBF9F5272F58F894004F607A /* ImageViewModifiers.swift */,
+				BBF9F5282F58F894004F607A /* Padding&SpacingView.swift */,
+				BBF9F5292F58F894004F607A /* Session3.swift */,
+				BBF9F52A2F58F894004F607A /* Stacks.swift */,
+				BBF9F52B2F58F894004F607A /* TextViewModifiers.swift */,
+				BBF9F52C2F58F894004F607A /* ZStackColor.swift */,
+			);
+			path = "Session 3";
+			sourceTree = "<group>";
+		};
+		BBF9F5302F58F894004F607A /* Session 4 */ = {
+			isa = PBXGroup;
+			children = (
+				BBF9F52E2F58F894004F607A /* AboutMe.swift */,
+				BBF9F52F2F58F894004F607A /* AboutMisterCam.swift */,
+			);
+			path = "Session 4";
+			sourceTree = "<group>";
+		};
+		BBF9F5342F58F894004F607A /* Session 5 */ = {
+			isa = PBXGroup;
+			children = (
+				BBF9F5312F58F894004F607A /* MisterCamSportsFavs.swift */,
+				BBF9F5322F58F894004F607A /* Session5TabView.swift */,
+				BBF9F5332F58F894004F607A /* SimpleScrollingExample.swift */,
+			);
+			path = "Session 5";
+			sourceTree = "<group>";
+		};
+		BBF9F5372F58F894004F607A /* Session 6 */ = {
+			isa = PBXGroup;
+			children = (
+				BBF9F5352F58F894004F607A /* BasicNavigationView.swift */,
+				BBF9F5362F58F894004F607A /* NavigationScreen.swift */,
+			);
+			path = "Session 6";
+			sourceTree = "<group>";
+		};
+		BBF9F5392F58F894004F607A /* Session 7 */ = {
+			isa = PBXGroup;
+			children = (
+				BBF9F5382F58F894004F607A /* AccessibilityModifiers.swift */,
+			);
+			path = "Session 7";
+			sourceTree = "<group>";
+		};
+		BBF9F53C2F58F894004F607A /* Session 8 */ = {
+			isa = PBXGroup;
+			children = (
+				BBF9F53A2F58F894004F607A /* GuessTheState.swift */,
+				BBF9F53B2F58F894004F607A /* StateView.swift */,
+			);
+			path = "Session 8";
+			sourceTree = "<group>";
+		};
+		BBF9F5402F58F894004F607A /* Session Extras */ = {
+			isa = PBXGroup;
+			children = (
+				BBF9F53D2F58F894004F607A /* ButtonView.swift */,
+				BBF9F53E2F58F894004F607A /* CustomFont.swift */,
+				BBF9F53F2F58F894004F607A /* JockeyOne-Regular.ttf */,
+			);
+			path = "Session Extras";
+			sourceTree = "<group>";
+		};
+		BBF9F5452F58F894004F607A /* SwiftUI Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BBF9F5232F58F894004F607A /* Preview Content */,
+				BBF9F5262F58F894004F607A /* Session 2 */,
+				BBF9F52D2F58F894004F607A /* Session 3 */,
+				BBF9F5302F58F894004F607A /* Session 4 */,
+				BBF9F5342F58F894004F607A /* Session 5 */,
+				BBF9F5372F58F894004F607A /* Session 6 */,
+				BBF9F5392F58F894004F607A /* Session 7 */,
+				BBF9F53C2F58F894004F607A /* Session 8 */,
+				BBF9F5402F58F894004F607A /* Session Extras */,
+				BBF9F5412F58F894004F607A /* Assets.xcassets */,
+				BBF9F5422F58F894004F607A /* ContentView.swift */,
+				BBF9F5432F58F894004F607A /* SwiftUI_Pod.entitlements.xml */,
+				BBF9F5442F58F894004F607A /* SwiftUI_PodApp.swift */,
+			);
+			path = "SwiftUI Pod";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBF9F5132F58F85D004F607A /* SpringPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBF9F51F2F58F85D004F607A /* Build configuration list for PBXNativeTarget "SpringPod" */;
+			buildPhases = (
+				BBF9F5102F58F85D004F607A /* Sources */,
+				BBF9F5112F58F85D004F607A /* Frameworks */,
+				BBF9F5122F58F85D004F607A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpringPod;
+			packageProductDependencies = (
+			);
+			productName = SpringPod;
+			productReference = BBF9F5142F58F85D004F607A /* SpringPod.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBF9F50C2F58F85D004F607A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					BBF9F5132F58F85D004F607A = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = BBF9F50F2F58F85D004F607A /* Build configuration list for PBXProject "SpringPod" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBF9F50B2F58F85D004F607A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BBF9F5152F58F85D004F607A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBF9F5132F58F85D004F607A /* SpringPod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBF9F5122F58F85D004F607A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF9F55C2F58F894004F607A /* Preview Assets.xcassets in Resources */,
+				BBF9F55D2F58F894004F607A /* Assets.xcassets in Resources */,
+				BBF9F55E2F58F894004F607A /* SwiftUI_Pod.entitlements.xml in Resources */,
+				BBF9F55F2F58F894004F607A /* JockeyOne-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBF9F5102F58F85D004F607A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF9F5462F58F894004F607A /* AboutMe.swift in Sources */,
+				BBF9F5472F58F894004F607A /* Stacks.swift in Sources */,
+				BBF9F5482F58F894004F607A /* CustomFont.swift in Sources */,
+				BBF9F5492F58F894004F607A /* ButtonView.swift in Sources */,
+				BBF9F54A2F58F894004F607A /* SwiftUIView.swift in Sources */,
+				BBF9F54B2F58F894004F607A /* BasicNavigationView.swift in Sources */,
+				BBF9F54C2F58F894004F607A /* TextViewModifiers.swift in Sources */,
+				BBF9F54D2F58F894004F607A /* AboutMisterCam.swift in Sources */,
+				BBF9F54E2F58F894004F607A /* ImageViewModifiers.swift in Sources */,
+				BBF9F54F2F58F894004F607A /* GuessTheState.swift in Sources */,
+				BBF9F5502F58F894004F607A /* ZStackColor.swift in Sources */,
+				BBF9F5512F58F894004F607A /* Padding&SpacingView.swift in Sources */,
+				BBF9F5522F58F894004F607A /* SwiftUI_PodApp.swift in Sources */,
+				BBF9F5532F58F894004F607A /* Session3.swift in Sources */,
+				BBF9F5542F58F894004F607A /* StateView.swift in Sources */,
+				BBF9F5552F58F894004F607A /* AccessibilityModifiers.swift in Sources */,
+				BBF9F5562F58F894004F607A /* Session2.swift in Sources */,
+				BBF9F5572F58F894004F607A /* NavigationScreen.swift in Sources */,
+				BBF9F5582F58F894004F607A /* SimpleScrollingExample.swift in Sources */,
+				BBF9F5592F58F894004F607A /* MisterCamSportsFavs.swift in Sources */,
+				BBF9F55A2F58F894004F607A /* Session5TabView.swift in Sources */,
+				BBF9F55B2F58F894004F607A /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BBF9F51D2F58F85D004F607A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBF9F51E2F58F85D004F607A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BBF9F5202F58F85D004F607A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Hidden-Genuis-Project.SpringPod";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		BBF9F5212F58F85D004F607A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Hidden-Genuis-Project.SpringPod";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBF9F50F2F58F85D004F607A /* Build configuration list for PBXProject "SpringPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF9F51D2F58F85D004F607A /* Debug */,
+				BBF9F51E2F58F85D004F607A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBF9F51F2F58F85D004F607A /* Build configuration list for PBXNativeTarget "SpringPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF9F5202F58F85D004F607A /* Debug */,
+				BBF9F5212F58F85D004F607A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBF9F50C2F58F85D004F607A /* Project object */;
+}
