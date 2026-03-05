@@ -15,7 +15,8 @@ struct SwiftUI_PodApp: App {
 //            NavigationScreen()
 //            BasicNavigationView()
             //AccessibilityModifiers()
-            MainContentView()
+            //MainContentView()
+            Session3()
         }
     }
 }

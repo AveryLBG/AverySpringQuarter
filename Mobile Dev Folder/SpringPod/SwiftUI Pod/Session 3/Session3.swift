@@ -10,18 +10,29 @@ import SwiftUI
 struct Session3: View {
     var body: some View {
         VStack {
-            Image("MiracleB")
-                .resizable() // Needed to resize Images
-                .aspectRatio(contentMode: .fit)   //Fits Image to the Device's screen
-//                .scaledToFit() //Scaled to Fit page
-//                .scaledToFill() //Scaled to Fill the page
-//                .edgesIgnoringSafeArea(.all)
-                .clipShape(RoundedRectangle(cornerRadius: 70.0))  //Clips Image into shape
-//                .clipShape(Ellipse()) // Clips Image into shape
-//                .clipShape(Capsule()) // Clips Image into shape
-
+            ZStack {
+                
+                
+                Image("MiracleB")
+                    .resizable() // Needed to resize Images
+                    .aspectRatio(contentMode: .fit)   //Fits Image to the Device's screen
+                //                .scaledToFit() //Scaled to Fit page
+                //                .scaledToFill() //Scaled to Fill the page
+                //                .edgesIgnoringSafeArea(.all)
+                    .clipShape(RoundedRectangle(cornerRadius: 70.0))  //Clips Image into shape
+                //                .clipShape(Ellipse()) // Clips Image into shape
+                //                .clipShape(Capsule()) // Clips Image into shape
+               
+                Image("BlackSquare")
+                                    .resizable() // Needed to resize Images
+                                    .aspectRatio(contentMode: .fit)   //Fits Image to the Device's screen
+                                    .offset(x: 0, y: 100)
+                                    .clipShape(RoundedRectangle(cornerRadius: 70.0))
+                                
+            }
 
             
+                   
             Text("Miracle B")
             
             Image(systemName: "pencil.tip")
