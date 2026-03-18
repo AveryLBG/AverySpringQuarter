@@ -12,28 +12,33 @@ struct Session3: View {
         VStack {
             ZStack {
                 
+                VStack{
+                    Image("MiracleB")
+                        .resizable() // Needed to resize Images
+                        .aspectRatio(contentMode: .fit)   //Fits Image to the Device's screen
+                    //                .scaledToFit() //Scaled to Fit page
+                    //                .scaledToFill() //Scaled to Fill the page
+                    //                .edgesIgnoringSafeArea(.all)
+                        .clipShape(RoundedRectangle(cornerRadius: 30.0))  //Clips Image into shape
+                    //                .clipShape(Ellipse()) // Clips Image into shape
+                    //                .clipShape(Capsule()) // Clips Image into shape
+                        
+                    ZStack{
+                        
+                        Rectangle()
+                            .offset(x:0, y:-35)
+                            .fill(Color.black)
+                            .frame(width: 375, height: 75)
+                            
+                        Text("Miracle B")
+                            .offset(x:0, y:-35)
+                        
+                    }
+                }
                 
-                Image("MiracleB")
-                    .resizable() // Needed to resize Images
-                    .aspectRatio(contentMode: .fit)   //Fits Image to the Device's screen
-                //                .scaledToFit() //Scaled to Fit page
-                //                .scaledToFill() //Scaled to Fill the page
-                //                .edgesIgnoringSafeArea(.all)
-                    .clipShape(RoundedRectangle(cornerRadius: 70.0))  //Clips Image into shape
-                //                .clipShape(Ellipse()) // Clips Image into shape
-                //                .clipShape(Capsule()) // Clips Image into shape
-               
-                Image("BlackSquare")
-                                    .resizable() // Needed to resize Images
-                                    .aspectRatio(contentMode: .fit)   //Fits Image to the Device's screen
-                                    .offset(x: 0, y: 100)
-                                    .clipShape(RoundedRectangle(cornerRadius: 70.0))
-                                
             }
-
-            
                    
-            Text("Miracle B")
+         
             
             Image(systemName: "pencil.tip")
                 .font(.title)
