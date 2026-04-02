@@ -2,15 +2,16 @@ using UnityEngine;
 
 public class CameraControls : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+  //Create Variables
+  [SerializeField, Tooltip("A reference to the target's transform component.")]
+  private Transform target; 
+  [SerializeField, Tooltip("An offset for the camera relative to the target's position.")]
+  private Vector3 posOffset;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  private void LateUpdate()
+  {
+   //Every frame, update the camera's position and offset
+   transform.position = target.position + posOffset;
+  }
+  
 }
