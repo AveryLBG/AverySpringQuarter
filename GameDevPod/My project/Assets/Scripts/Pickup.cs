@@ -14,6 +14,18 @@ public class Pickup : MonoBehaviour
         //Store the player's playercontroller.
         PlayerController controller = other.GetComponent<PlayerController>();
 
+        if (controller !=null)//we've hit the player
+        {
+            //Destroy this pickup
+            Destroy(gameObject);
+            //Tell the gameManager to update the score
+            GameManager.Instance.UpdateScore(1);
+        }
+    }
 
+    private void Update()
+    {
+        //Make the pickup rotate 15 on x, 45 on y, and 60 on z
+        transform.Rotate(new Vector3(15, 45, 60) * rotateSpeed * Time.deltaTime, Space.Self);
     }
 }
