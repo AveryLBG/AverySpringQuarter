@@ -17,7 +17,7 @@ struct BasicNavigationView: View {
                     MisterCamSportsFavs()
                 } // End of NavLink
                 .navigationTitle("Navigation Practice")
-                .navigationBarTitleDisplayMode(.inline)
+                //.navigationBarTitleDisplayMode(.inline)
                 
             }// End of VStack
         }// End of NavStack

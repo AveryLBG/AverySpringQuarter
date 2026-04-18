@@ -13,7 +13,7 @@ struct Session3: View {
             ZStack {
                 
                 VStack{
-                    Image("MiracleB")
+                    Image("Avery")
                         .resizable() // Needed to resize Images
                         .aspectRatio(contentMode: .fit)   //Fits Image to the Device's screen
                     //                .scaledToFit() //Scaled to Fit page
@@ -27,12 +27,18 @@ struct Session3: View {
                         
                         Rectangle()
                             .offset(x:0, y:-35)
-                            .fill(Color.black)
-                            .frame(width: 375, height: 75)
+                            .fill(Color.yellow)
+                            .frame(width: 360, height: 75)
                             
-                        Text("Miracle B")
-                            .offset(x:0, y:-35)
-                        
+                        HStack{
+                            Text("Avery Garner")
+                                .offset(x:0, y:-35)
+                                .padding(.horizontal, 10)
+                                Spacer()
+                            Text("Current HGP Genius")
+                                .offset(x:0, y:-35)
+                                .padding(.horizontal, 10)
+                        }
                     }
                 }
                 
