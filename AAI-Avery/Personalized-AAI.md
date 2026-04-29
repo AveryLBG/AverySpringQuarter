@@ -1,5 +1,5 @@
 
-"A decision I make weekly is what outfit to wear."
+"A decision I make daily is what outfit to wear."
 
 "The data I wish I had is where other people get their clothes."
 
