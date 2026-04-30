@@ -1,6 +1,6 @@
 One type of data that helps people
 
-Data like weather patterns than can be used to predict future weather.
+Data like weather patterns per area than can be used to predict future weather.
 
 One type of data that can harm people
 
