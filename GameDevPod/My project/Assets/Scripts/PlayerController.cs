@@ -28,5 +28,12 @@ public class PlayerController : MonoBehaviour
     
         //Apply Input into movement on the player character.
         rb.AddForce(moveDir * moveSpeed * Time.deltaTime ,ForceMode.Impulse);
+
+        //Check if player fell off the map
+        if (transform.position.y <= -5)
+        {
+            //Reset the game
+            GameManager.Instance.Invoke("GameOver", 2f);
+        }
     }
 }

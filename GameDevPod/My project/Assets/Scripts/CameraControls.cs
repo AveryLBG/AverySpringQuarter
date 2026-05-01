@@ -11,7 +11,11 @@ public class CameraControls : MonoBehaviour
   private void LateUpdate()
   {
    //Every frame, update the camera's position and offset
-   transform.position = target.position + posOffset;
+   if (target != null)
+   {
+      transform.position = target.position + posOffset;
+   }
+   
   }
   
 }

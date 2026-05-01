@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -60,5 +61,12 @@ public class GameManager : MonoBehaviour
             victoryTextObject.SetActive(true);
         }
     
+    }
+
+    public void GameOver() 
+    {
+        //reload the scene.
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
     }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB59FE3E2FA41D4C005DA22D /* AboutAvery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB59FE3D2FA41D4C005DA22D /* AboutAvery.swift */; };
 		BBF9F5462F58F894004F607A /* AboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F52E2F58F894004F607A /* AboutMe.swift */; };
 		BBF9F5472F58F894004F607A /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F52A2F58F894004F607A /* Stacks.swift */; };
 		BBF9F5482F58F894004F607A /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F53E2F58F894004F607A /* CustomFont.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB59FE3D2FA41D4C005DA22D /* AboutAvery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAvery.swift; sourceTree = "<group>"; };
 		BBF9F5142F58F85D004F607A /* SpringPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF9F5222F58F894004F607A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BBF9F5242F58F894004F607A /* Session2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session2.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				BBF9F52E2F58F894004F607A /* AboutMe.swift */,
+				BB59FE3D2FA41D4C005DA22D /* AboutAvery.swift */,
 				BBF9F52F2F58F894004F607A /* AboutMisterCam.swift */,
 			);
 			path = "Session 4";
@@ -274,6 +277,7 @@
 			files = (
 				BBF9F5462F58F894004F607A /* AboutMe.swift in Sources */,
 				BBF9F5472F58F894004F607A /* Stacks.swift in Sources */,
+				BB59FE3E2FA41D4C005DA22D /* AboutAvery.swift in Sources */,
 				BBF9F5482F58F894004F607A /* CustomFont.swift in Sources */,
 				BBF9F5492F58F894004F607A /* ButtonView.swift in Sources */,
 				BBF9F54A2F58F894004F607A /* SwiftUIView.swift in Sources */,
