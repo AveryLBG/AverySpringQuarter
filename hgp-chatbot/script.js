@@ -23,6 +23,7 @@ const rules = [
   { match: ["joseph"], reply: "short" },
   { match: ["taqari",  "nishad"], reply: "he goes to nvictus EWWWWWW" },
   { match: ["devon"], reply: "He da real nutt" },
+  { match: ["wsg", "whats good"], reply: "wsg my clanka" },
   { match: ["tay"], reply: "HNAILBAHHJDWTMSILHA" },
   { match: ["not sure yet"], reply: "What are you sure of then? Huh? Huh???? Tell me? Or do you need AI to come up with that too bum chud loser" },
   { match: ["students", "join"], reply: "HGP is available to black male students from 8-11th grade. There are cohorts all across the U.S., and this one was programmed by someone in the cohort 'rich 9'. " },
