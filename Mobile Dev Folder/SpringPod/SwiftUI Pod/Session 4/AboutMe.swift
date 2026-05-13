@@ -10,7 +10,7 @@ import SwiftUI
 struct AboutMe: View {
     var body: some View {
         VStack{
-            Image("20260511_175535")
+            Image("1000016404")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .padding()
