@@ -10,16 +10,16 @@ import SwiftUI
 struct AboutMe: View {
     var body: some View {
         VStack{
-            Image("Cameron Warner")
+            Image("20260511_175535")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .padding()
             Divider()
             
-            Text("Cameron Warner")
+            Text("Avery Garner")
                 .font(.largeTitle)
             
-            Text("Here's my first sentencte! Add one more sentence to have at least two sentences.")
+            Text("My name is Avery. I'm in the 9th grade, and I'm from the bay area.")
                 .padding()
         }//End of VStack
     }

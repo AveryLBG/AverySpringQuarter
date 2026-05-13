@@ -11,9 +11,9 @@ struct ContentView: View {
     var body: some View {
         TabView {
             
-            AboutMisterCam()
+            AboutMe()
                 .tabItem{
-                    Label("Mr. Cam", systemImage:"person")
+                    Label("Avery", systemImage:"person")
                 }
             
             Session3()
@@ -21,7 +21,7 @@ struct ContentView: View {
                     Label("HGP", systemImage:"lightbulb.fill")
                 }
             
-            MisterCamSportsFavs() // insert final Tab Item
+            AveryFavMedia() // insert final Tab Item
                 .tabItem{
                     Label("Sports", systemImage:"baseball.fill")
                 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB19E1C72FB2A67700EAE2C3 /* AveryFavMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB19E1C62FB2A67700EAE2C3 /* AveryFavMedia.swift */; };
 		BB59FE3E2FA41D4C005DA22D /* AboutAvery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB59FE3D2FA41D4C005DA22D /* AboutAvery.swift */; };
 		BBF9F5462F58F894004F607A /* AboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F52E2F58F894004F607A /* AboutMe.swift */; };
 		BBF9F5472F58F894004F607A /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9F52A2F58F894004F607A /* Stacks.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB19E1C62FB2A67700EAE2C3 /* AveryFavMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AveryFavMedia.swift; sourceTree = "<group>"; };
 		BB59FE3D2FA41D4C005DA22D /* AboutAvery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAvery.swift; sourceTree = "<group>"; };
 		BBF9F5142F58F85D004F607A /* SpringPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF9F5222F58F894004F607A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		BBF9F5302F58F894004F607A /* Session 4 */ = {
 			isa = PBXGroup;
 			children = (
+				BB19E1C62FB2A67700EAE2C3 /* AveryFavMedia.swift */,
 				BBF9F52E2F58F894004F607A /* AboutMe.swift */,
 				BB59FE3D2FA41D4C005DA22D /* AboutAvery.swift */,
 				BBF9F52F2F58F894004F607A /* AboutMisterCam.swift */,
@@ -293,6 +296,7 @@
 				BBF9F5542F58F894004F607A /* StateView.swift in Sources */,
 				BBF9F5552F58F894004F607A /* AccessibilityModifiers.swift in Sources */,
 				BBF9F5562F58F894004F607A /* Session2.swift in Sources */,
+				BB19E1C72FB2A67700EAE2C3 /* AveryFavMedia.swift in Sources */,
 				BBF9F5572F58F894004F607A /* NavigationScreen.swift in Sources */,
 				BBF9F5582F58F894004F607A /* SimpleScrollingExample.swift in Sources */,
 				BBF9F5592F58F894004F607A /* MisterCamSportsFavs.swift in Sources */,
