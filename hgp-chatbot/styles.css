@@ -7,4 +7,6 @@ body { font-family: system-ui, Arial; background: #ffffff; margin:0; }
 .form { display:flex; gap:8px; margin-top:12px; }
 input { flex:1; padding:10px; border-radius:10px; border:1px solid #ffffff; }
 button { padding:10px 14px; border-radius:10px; border:0; background:#010e58; color:white; }
+.quick { display:flex; gap:8px; flex-wrap:wrap; margin:10px 0; }
+.qbtn { background:#210c72; border:1px solid #ccc; padding:8px 10px; border-radius:999px; cursor:pointer; }
 

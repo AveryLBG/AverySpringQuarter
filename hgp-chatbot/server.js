@@ -1,46 +1,63 @@
 import express from "express";
 import dotenv from "dotenv";
+import path from "path";
+import { fileURLToPath } from "url";
 
-dotenv.config();
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+dotenv.config({ path: path.join(__dirname, ".env") });
+
 const app = express();
 
 app.use(express.json());
-app.use(express.static("."));
+app.use(express.static(path.join(__dirname, ".")));
 
-// Helper: extract all generated text from Responses API output[]
 function extractText(data) {
-  const parts = [];
+  if (!data) return "";
 
+  if (typeof data.output_text === "string" && data.output_text.trim()) {
+    return data.output_text.trim();
+  }
+
+  const parts = [];
   for (const item of data?.output ?? []) {
-    // Many responses put assistant text inside output[] items with content[]
     for (const c of item?.content ?? []) {
-      // Common types you’ll see: "output_text" (text chunks) and sometimes "text"
-      if (c?.type === "output_text" && typeof c.text === "string") parts.push(c.text);
-      if (c?.type === "text" && typeof c.text === "string") parts.push(c.text);
+      if (typeof c.text === "string") parts.push(c.text);
     }
   }
 
-  return parts.join("").trim();
+  return parts.join(" ").trim();
 }
 
 app.post("/api/chat", async (req, res) => {
   try {
-    const userMessage = req.body?.message || "";
+    const apiKey = process.env.OPENAI_API_KEY;
+    if (!apiKey) {
+      console.error("OPENAI_API_KEY missing");
+      return res.status(500).json({ reply: "Server configuration error." });
+    }
+
+    const userMessage = String(req.body?.message || "");
+    const mode = String(req.body?.mode || "friendly");
+
+    const system =
+      mode === "coach"
+        ? "You are a hype coach. Short, motivating, actionable."
+        : mode === "analyst"
+        ? "You are an analyst. Give patterns + next steps."
+        : "You are friendly and helpful. Keep it brief and safe.";
 
     const resp = await fetch("https://api.openai.com/v1/responses", {
       method: "POST",
       headers: {
-        Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
+        Authorization: `Bearer ${apiKey}`,
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        model: "gpt-5", // or try "gpt-5.1" / "gpt-5-mini"
+        model: "gpt-5",
         input: [
-          {
-            role: "system",
-            content:
-              "You are an upbeat, youth-friendly help bot for an education program. Be concise, positive, and safe.",
-          },
+          { role: "system", content: system },
           { role: "user", content: userMessage },
         ],
       }),
@@ -48,17 +65,16 @@ app.post("/api/chat", async (req, res) => {
 
     const data = await resp.json();
 
-    // If OpenAI returns an error, surface it (super helpful for debugging)
     if (!resp.ok) {
-      const msg =
-        data?.error?.message ||
-        `OpenAI API error (${resp.status})`;
+      console.error("OpenAI API error:", data);
+      const msg = data?.error?.message || `OpenAI API error (${resp.status})`;
       return res.status(resp.status).json({ reply: msg });
     }
 
-    const text = extractText(data) || "I couldn't generate a response right now.";
-    res.json({ reply: text });
+    const replyText = extractText(data) || "I couldn't generate a response right now.";
+    res.json({ reply: replyText });
   } catch (err) {
+    console.error("Server error:", err);
     res.status(500).json({ reply: "Server error. Try again." });
   }
 });
